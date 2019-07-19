@@ -1,0 +1,22 @@
+{
+  "name": "passport-azure-ad-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^1.7.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "nodemon": "^1.19.1",
+    "passport-azure-ad": "^4.1.0",
+    "passport-azure-ad-oauth2": "0.0.4",
+    "passport-jwt": "^4.0.0"
+  }
+}
